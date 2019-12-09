@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col">
+            <h3 class="text-center">欢迎回来！</h3>
+            <h3 class="text-center">用户名：{{ request.session.user_name }}</h3>
+        </div>
+    </div> <!-- /container -->
+ 
+    <p>
+        <a href="/logout/">登出</a>
+    </p>
+</body>
+</html>
